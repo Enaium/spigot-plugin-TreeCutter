@@ -1,0 +1,8 @@
+# Enable this plugin
+enable: true
+
+# Break log
+log: true
+
+# Break leave
+leave: false

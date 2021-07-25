@@ -6,7 +6,7 @@ sourceCompatibility = JavaVersion.VERSION_1_8
 targetCompatibility = JavaVersion.VERSION_1_8
 
 group 'cn.enaium'
-version '1.0.0'
+version '1.1.0'
 
 repositories {
     mavenCentral()
@@ -23,4 +23,8 @@ processResources {
     filesMatching("plugin.yml") {
         expand "version": project.version
     }
+}
+
+configurations.all {
+    resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
 }

@@ -1,5 +1,6 @@
 package cn.enaium.treecutter;
 
+import org.bukkit.Material;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.Objects;

@@ -1,7 +1,7 @@
 name: TreeCutter
 version: ${version}
 main: cn.enaium.treecutter.TreeCutter
-api-version: 1.17
+api-version: 1.13
 prefix: TreeCutter
 authors: [ Enaium ]
 description: Cut trees with one click

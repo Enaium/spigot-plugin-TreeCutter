@@ -1,7 +1,6 @@
 package cn.enaium.treecutter;
 
 import org.bukkit.GameMode;
-import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -12,19 +11,17 @@ import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
-import java.util.logging.Level;
 
 /**
  * @author Enaium
  */
 public class Events implements Listener {
 
-    private final List<String> logs = Arrays.asList("WARPED_STEM", "CRIMSON_STEM", "OAK_LOG", "BIRCH_LOG", "SPRUCE_LOG", "JUNGLE_LOG", "DARK_OAK_LOG", "ACACIA_LOG");
-    private final List<String> leaves = Arrays.asList("NETHER_WART_BLOCK", "WARPED_WART_BLOCK", "OAK_LEAVES", "BIRCH_LEAVES", "SPRUCE_LEAVES", "JUNGLE_LEAVES", "DARK_OAK_LEAVES", "ACACIA_LEAVES");
+    private final List<String> logs = LLTMap.logs;
+    private final List<String> leaves = LLTMap.leaves;
     private final List<String> target = new ArrayList<>();
-    private final List<String> tools = Arrays.asList("NETHERITE_AXE", "DIAMOND_AXE", "GOLDEN_AXE", "IRON_AXE", "STONE_AXE", "WOODEN_AXE");
+    private final List<String> tools = LLTMap.tools;
 
     private final JavaPlugin javaPlugin;
 

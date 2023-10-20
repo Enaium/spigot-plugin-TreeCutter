@@ -6,3 +6,36 @@ log: true
 
 # Break leave
 leave: false
+
+# LLTMap
+list:
+  logs:
+    - "WARPED_STEM"
+    - "CRIMSON_STEM"
+    - "OAK_LOG"
+    - "BIRCH_LOG"
+    - "SPRUCE_LOG"
+    - "JUNGLE_LOG"
+    - "DARK_OAK_LOG"
+    - "ACACIA_LOG"
+    - "MANGROVE_ROOTS"
+    - "MANGROVE_LOG"
+    - "CHERRY_LOG"
+  leaves:
+    - "NETHER_WART_BLOCK"
+    - "WARPED_WART_BLOCK"
+    - "OAK_LEAVES"
+    - "BIRCH_LEAVES"
+    - "SPRUCE_LEAVES"
+    - "JUNGLE_LEAVES"
+    - "DARK_OAK_LEAVES"
+    - "ACACIA_LEAVES"
+    - "MANGROVE_LEAVES"
+    - "CHERRY_LEAVES"
+  tools:
+    - "NETHERITE_AXE"
+    - "DIAMOND_AXE"
+    - "GOLDEN_AXE"
+    - "IRON_AXE"
+    - "STONE_AXE"
+    - "WOODEN_AXE"
